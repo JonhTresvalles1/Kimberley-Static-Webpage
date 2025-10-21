@@ -1,0 +1,150 @@
+/* ===== GeistSans ===== */
+@font-face {
+  font-family: 'GeistSans';
+  src: url('/assets/fonts/Geist/Geist-Thin.woff2') format('woff2');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GeistSans';
+  src: url('/assets/fonts/Geist/Geist-ExtraLight.woff2') format('woff2');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GeistSans';
+  src: url('/assets/fonts/Geist/Geist-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GeistSans';
+  src: url('/assets/fonts/Geist/Geist-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GeistSans';
+  src: url('/assets/fonts/Geist/Geist-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GeistSans';
+  src: url('/assets/fonts/Geist/Geist-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GeistSans';
+  src: url('/assets/fonts/Geist/Geist-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GeistSans';
+  src: url('/assets/fonts/Geist/Geist-ExtraBold.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GeistSans';
+  src: url('/assets/fonts/Geist/Geist-Black.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* ===== GeistMono ===== */
+@font-face {
+  font-family: 'GeistMono';
+  src: url('/assets/fonts/GeistMono/GeistMono-Thin.woff2') format('woff2');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GeistMono';
+  src: url('/assets/fonts/GeistMono/GeistMono-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GeistMono';
+  src: url('/assets/fonts/GeistMono/GeistMono-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GeistMono';
+  src: url('/assets/fonts/GeistMono/GeistMono-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GeistMono';
+  src: url('/assets/fonts/GeistMono/GeistMono-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GeistMono';
+  src: url('/assets/fonts/GeistMono/GeistMono-ExtraBold.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GeistMono';
+  src: url('/assets/fonts/GeistMono/GeistMono-Black.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+}
+
+:root {
+  /* Typography */
+  --font-body: 'GeistSans', 'GeistSans Fallback', sans-serif;
+  --font-geist-mono: 'GeistMono', ui-monospace, SFMono-Regular, monospace;
+
+  /* Base Colors */
+  --color-bg: oklch(0.98 0.01 85);      
+  --color-text: oklch(0.35 0.02 45);
+
+  /* Surface Elements */
+  --color-surface: oklch(1 0 0);
+  --color-surface-text: oklch(0.35 0.02 45);
+
+  /* Popovers / Tooltips / Modals */
+  --color-overlay: oklch(1 0 0);
+  --color-overlay-text: oklch(0.35 0.02 45);
+
+  /* Primary Brand Color */
+  --color-primary: oklch(0.45 0.08 45);
+  --color-on-primary: oklch(0.98 0.01 85);
+
+  /* Secondary Elements */
+  --color-secondary: oklch(0.95 0.02 85);
+  --color-on-secondary: oklch(0.35 0.02 45);
+
+  /* Muted / Subtle UI Elements */
+  --color-muted: oklch(0.92 0.02 85);
+  --color-muted-text: oklch(0.55 0.02 45);
+
+  /* Accent Color (for highlights or links) */
+  --color-accent: oklch(0.42 0.08 35);
+  --color-on-accent: oklch(0.98 0.01 85);
+
+  /* Borders and Dividers */
+  --color-border: oklch(0.88 0.02 85);
+}

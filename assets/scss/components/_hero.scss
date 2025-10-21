@@ -1,0 +1,67 @@
+.hero {
+  padding: 9rem 1rem 5rem;
+  text-align: center;
+
+  &__image {
+    width: 100%;
+    max-width: 900px; 
+    height: auto;
+    margin: 0 auto 2rem;
+  }
+
+  &__badge {
+    display: inline-block;
+    margin-bottom: 1.5rem;
+    padding: 0.25rem 0.5rem;
+    background-color: var( --color-secondary);
+    font-size: 0.875rem;
+    font-weight: 500;
+    border-radius: 0.5rem;
+    color: var(--color-text);
+  }
+
+  &__container{
+    text-align: center;
+    margin: 0 auto;
+    max-width: 600;
+  }
+
+  &__title {
+    font-size: 2.8rem;
+    line-height: 1;
+    font-weight: 700;
+    color: var(--color-text);
+    margin-bottom: 1.5rem;
+    max-width: 600px;
+    margin: 0 auto 1.5rem;
+    
+    span {
+      color: var(--color-primary);
+    }
+
+    @media (min-width: 768px) {
+      font-size: 3.75rem;
+      line-height: 1;
+    }
+  }
+
+  &__description {
+    font-size: 1rem;
+    color: var(--color-muted-text);
+    max-width: 643px;
+    margin: 0 auto 2rem;
+    line-height: 1.4;
+
+    @media (min-width: 768px) {
+      font-size: 20px;
+    }
+   
+  }
+
+  &__buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}

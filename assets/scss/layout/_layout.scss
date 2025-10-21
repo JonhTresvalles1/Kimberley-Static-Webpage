@@ -1,0 +1,22 @@
+
+.section{
+    padding: 5.5rem 0 1rem;
+}
+
+.container{
+    max-width: 1200px;
+
+  @media (min-width: 992px) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+ 
+}
+
+.grid{
+    display: grid;
+}
+
+.main{
+    overflow: hidden;
+}
